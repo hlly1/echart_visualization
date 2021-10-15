@@ -1,0 +1,157 @@
+body{
+    background-image: url("../assets/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    height: auto;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 20px 20px 20px;
+}
+
+.main-col1, .main-col2, .main-col3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 20px 0 20px;
+}
+
+.main-col2{
+    flex:1;
+}
+
+.title{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 0.75rem;
+}
+
+.box{
+    /* Card img Reference:
+        https://lovepik.com/images/png-blue.html
+        Blue Png vectors by Lovepik.com
+    */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-clip: border-box;
+    height: 300px;
+    width: 375px;
+    margin: 0 5px 5px 5px;
+    padding: 0 15px 5px 15px;
+    /* background-image: url("../assets/card-bg.png");
+    background-size: 100% 100%; */
+}
+
+.chart{
+    height: 300px;
+    width: auto;
+    flex-grow: 2;
+}
+
+.chart-title{
+    padding-top: 20px;
+    font-size: 0.30rem;
+    color: white;
+    flex-grow: 1;
+}
+
+.center-map{
+    height: 350px;
+    width: 600px;
+    align-self: center;
+}
+
+p{
+    margin-bottom: 0.2rem!important;
+}
+
+.box1{
+    flex:1;
+    display: flex;
+    position: relative;
+    height: 300px;
+    width: 60%;
+    max-width: 90%;
+    flex-direction: column;
+}
+
+.calendar-box{
+    height: 300px;
+    width: 100%;
+}
+
+.calendar-M, .calendar-F{
+    height: 100%;
+    width: 100%;
+}
+
+.select{
+    height: 20px;
+    width: 40px;
+}
+
+.controller-title{
+    font-size: 0.4rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.gender-control {
+	background-color:#4269a6;
+	border-radius:28px;
+	border:none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px 25px;
+	text-decoration:none;
+}
+.gender-control:active {
+	position:relative;
+	top:1px;
+}
+
+.box2{
+    /* Card img Reference:
+        https://lovepik.com/images/png-blue.html
+        Blue Png vectors by Lovepik.com
+    */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-clip: border-box;
+    height: 300px;
+    width: 375px;
+    margin: 0 5px 5px 5px;
+    padding: 0 15px 5px 15px;
+    background-image: url("../assets/card-bg.png");
+    background-size: 100% 100%;
+}
+
+.controller-item{
+    margin: 20px 0 0 20px;
+}
+
+.flex-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
